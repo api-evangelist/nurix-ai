@@ -1,7 +1,27 @@
 aid: nurix-ai
 name: Nurix AI
-description: 'Nurix AI is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Nurix AI is an enterprise conversational-AI company that builds human-like
+  voice and chat AI agents for sales, customer support, and internal operations. Founded
+  by Mukesh Bansal and backed by Accel and General Catalyst, Nurix delivers custom AI
+  agents across voice, chat, email, SMS, and social channels through its NuPlay conversational-AI
+  platform, NuStack workflow engine, and NuPulse conversation-analytics product. It serves
+  30+ enterprises across retail, insurance, financial services, healthcare, and education,
+  and offers enterprise-grade security controls (PII redaction, RBAC, SSO, audit trails,
+  and regional data residency) with a HIPAA (BAA), DPA, and GDPR compliance posture. Nurix
+  acquired the conversational-support platform Verloop.io. As of this profile the company
+  publishes no public developer API, SDK, or documentation surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66796a37e9aadbf3722c4340/6982c74c141044940dd657b9_hero%20(1).webp
 url: https://raw.githubusercontent.com/api-evangelist/nurix-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Conversational AI
+- Voice AI
+- Chatbots
+- Customer Support
+- Sales Automation
+- AI Agents
+- Contact Center
+- Enterprise AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.nurix.ai/
+- type: Blog
+  url: https://www.nurix.ai/resource/blogs
+- type: Support
+  url: https://www.nurix.ai/support
+- type: TermsOfService
+  url: https://www.nurix.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.nurix.ai/privacy-policy
+- type: Compliance
+  url: https://www.nurix.ai/security-and-compliance
+- type: LLMsTxt
+  url: llms/nurix-ai-llms.txt
+- type: DomainSecurity
+  url: security/nurix-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
